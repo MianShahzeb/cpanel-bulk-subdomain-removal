@@ -1,5 +1,8 @@
 # Name: cPanel Bulk Subdomains Delete 1.1
 # Requirements to configure
+
+# Upload index.php and file.txt to public_html/[folder]
+
 1. cPanel Username
 2. cPanel Password
 3. cPanel Skin
