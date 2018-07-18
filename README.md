@@ -1,5 +1,9 @@
-# Name: cPanel Bulk Subdomains Delete 1.1
+# Name: cPanel Bulk Subdomains Removal 1.1
+	Delete hunderds of Sub Domains with one click from cPanel with simple php script updated 2018 with cPanel API 2
+	
 # Requirements to configure
+1. php file configurations
+2. txt file subdomains 
 
 # Upload index.php and file.txt to public_html/[folder]
 
@@ -22,5 +26,7 @@
 
 Make Changes in Initial Settings and on line number 26, 147
 
-# Credits
+# Credits & Thanks
+Thanks to http://www.zubrag.com/scripts/cpanel-delete-subdomains.php but it was not working.
 cPanel Hosting https://hosting.biz - IBX Technologies https://ibxtechnologies.com - cPanel https://cpanel.com
+
