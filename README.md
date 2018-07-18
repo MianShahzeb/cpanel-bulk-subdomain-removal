@@ -19,4 +19,5 @@
 
 Make Changes in Initial Settings and on line number 26, 147
 
-cPanel Hosting https://hosting.biz
+# Credits
+cPanel Hosting https://hosting.biz - IBX Technologies https://ibxtechnologies.com - cPanel https://cpanel.com
