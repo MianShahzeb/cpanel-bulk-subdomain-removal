@@ -11,22 +11,23 @@
 2. cPanel Password
 3. cPanel Skin
 4. Root Domain Name
-5. Upload file.txt to public_html or any directory
+5. Upload file.txt to public_html or any directory (line 26)
 			Domains sample
 			sub-domain
 			subdomain2
 			subdomain5
-	Each line must contain on 1 sub domain in file.txt
+		Each line must contain on 1 sub domain in file.txt
 6. Structure of $request
- 	6.1	Don't forget to sign in into your cpanel and check if you have the same prefix (cpsess16xxxxxx55)
-	6.2	=== https://[host here]:[port here]/cpsess/frontend/cpanel_skin/subdomain/dodeldomain.html?domain=[sub-domain here].[domain here]
-	6.3	Sample:
-		"/$cpess/frontend/$cpanel_skin/subdomain/dodeldomain.html?domain=$subd.$domain"
-7. Port should be 2083 or 2082 (Normally it will 2083).
-
-Make Changes in Initial Settings and on line number 26, 147
+7. Don't forget to sign in into your cpanel and check if you have the same prefix (cpsess16xxxxxx55) (line 47)
+8. === Request structure
+		https://[host here]:[port here]/cpsess/frontend/cpanel_skin/subdomain/dodeldomain.html?domain=[sub-domain here].[domain here]
+9. Sample:
+		/$cpess/frontend/$cpanel_skin/subdomain/dodeldomain.html?domain=$subd.$domain
+10. Port should be 2083 or 2082 (Normally it will be 2083 by default).
 
 # Credits & Thanks
 Thanks to http://www.zubrag.com/scripts/cpanel-delete-subdomains.php but it was not working.
-cPanel Hosting https://hosting.biz - IBX Technologies https://ibxtechnologies.com - cPanel https://cpanel.com
+cPanel Hosting https://hosting.biz
+IBX Technologies https://ibxtechnologies.com
+cPanel https://cpanel.net / http://documentation.cpanel.net/display/CKB/cPanel+Knowledge+Base
 
